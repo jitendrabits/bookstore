@@ -9,7 +9,7 @@ const db = {};
 db.mongoose = mongoose;
 
 db.url = config.CONFIG_URL;
-
+ 
 db.admin = require('./admin.model');
 
 db.brands = require('./brands.model');

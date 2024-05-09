@@ -21,7 +21,7 @@ import {
 import { Link } from "react-router-dom";
 import "./header.css";
 import { useNavigate } from "react-router-dom";
-import Logo from "./../../asset/images/logo.png";
+import Logo from "./../../asset/images/logo2.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { searchProductAction } from "../../Action/productAction";
 import GetMthod from "./../apiCalls/GetMethod";

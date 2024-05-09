@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
-import Men from "../../../../asset/images/for-men.jpg";
-import Women from "../../../../asset/images/for-women.jpg";
+import Men from "../../../../asset/images/homebook2.jpg";
+import Women from "../../../../asset/images/homebook1.jpg";
 import "./showcase.css";
 
 const Showcase = () => {

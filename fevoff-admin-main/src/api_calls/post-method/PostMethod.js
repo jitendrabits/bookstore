@@ -14,7 +14,7 @@ const PostMethod = async (url, objData) => {
     try {
 
         const response = await axios.request(config);
-
+        console.log("hello",response);
         return {
             status: true,
             message: response.data.message || "",

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="w-full bg-black pt-6">
       <div className="mx-auto flex max-w-6xl flex-col items-start space-x-8 md:flex-row py-4">
         <div className="w-full px-4 md:w-1/2 lg:px-0">
-          <h1 className="max-w-sm text-4xl italic font-bold text-white">Fevoff</h1>
+          <h1 className="max-w-sm text-4xl italic font-bold text-white">Bookstore</h1>
           <p className='mt-3 text-white italic'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
         </div>
         <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-4/5 lg:grid-cols-3">
@@ -67,7 +67,7 @@ const Footer = () => {
       </div>
       <hr className="my-4" />
       <div className="text-center py-3">
-        <p className="text-md font-bold text-white italic px-2 md:px-0">© {moment().format('YYYY')} All rights reserved. | Website is Developed & Maintained By Fevoff.</p>
+        <p className="text-md font-bold text-white italic px-2 md:px-0">© {moment().format('YYYY')} All rights reserved. | Website is Developed & Maintained By Bookstore.</p>
       </div>
     </footer>
   )
